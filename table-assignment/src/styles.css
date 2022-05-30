@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  display: flex;
+  background-color: #f1f1f1;
+  /* padding: 30px; */
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.name{
+  width: 150px;
+ 
+}
+.email{
+  width: 240px;
+  
+}
+.phone_no{
+  width: 110px;
+  
+}
+.status{
+  width: 100px;
+  
+}
+.Option{
+  width: 50px;
+ 
+}
+.date_added{
+  width: 100px;
+  
+}
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  /* padding: 20px; */
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+  height: 3rem;
+}
+.search_box{
+  display: flex;
+}
+
+.footer{
+  display: flex;
+  background-color: #f1f1f1;
+  /* padding: 30px; */
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+ 
+}
+
+.buttons>button{
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+  
+
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
