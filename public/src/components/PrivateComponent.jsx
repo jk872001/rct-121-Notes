@@ -7,7 +7,7 @@ export const PrivateComponent=({ children }) => {
    
     
     if (!isAuth) {
-    return <Navigate to="/registerpageone" replace={false}/>;
+    return <Navigate to="/" replace={false}/>;
     }
     return children;
     

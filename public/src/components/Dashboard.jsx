@@ -4,12 +4,12 @@ export  const Dashboard = () => {
     const navigate = useNavigate();
   return (
     <div>
-    <button onClick={()=>{navigate("/registerpageone")}}>New Registeration</button>
+    <button onClick={()=>{navigate("/")}}>New Registeration</button>
     <h1>Dashboard</h1>
     <p>Username</p>
     <p>Email</p>
     <p>Address</p>
-    <p>Phone Numbee</p>
+    <p>Phone Number</p>
 
     </div>
 

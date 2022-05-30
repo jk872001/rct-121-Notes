@@ -15,7 +15,7 @@ const navigate = useNavigate();
     return (
     <div>
     <h1>Register Page</h1>
-    <input type="text" placeholder="username" / >{" "}
+    <input type="text" placeholder="username"  required={"true"}/ >
     <input type="text" placeholder="password" />
     <button
 onClick={() => {

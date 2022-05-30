@@ -17,7 +17,7 @@ return (
 <AuthContextProvider>
 
 <Routes>
-<Route path="/registerpageone" element={< RegisterPageOne/>}></Route>
+<Route path="/" element={< RegisterPageOne/>}></Route>
 
 <Route path="/dashboard" element={
     <PrivateComponent>

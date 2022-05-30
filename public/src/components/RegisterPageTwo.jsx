@@ -24,12 +24,12 @@ onClick={() => {
 // change state of isAuth. to true.
 handleAuth(true);
 // imperative.
-
+navigate("/dashboard")
 }}>
 Submit
 </button>
-{<button style={{display:"block"}} onClick={()=>{navigate("/registerpageone")}}>Prev</button>}
-   {isAuth?<button onClick={()=>{navigate("/dashboard")}}>Next</button>:null}
+{<button style={{display:"block"}} onClick={()=>{navigate("/")}}>Prev</button>}
+  
     </div>
     );
     };
