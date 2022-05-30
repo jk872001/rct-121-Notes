@@ -4,7 +4,7 @@ import axios from "axios";
 import Button from "./components/Button";
 import CandidateCard from "./components/CandidateCard";
 import "./styles.css";
-
+import { Searchbox } from "./components/Searchbox";
 export default function App() {
   
   const [loading, setLoading] = useState(true);         
@@ -23,7 +23,7 @@ export default function App() {
    
     await axios({
       method: "GET",
-      url: "http://localhost:8000/candidates",
+      url: "http://localhost:8080/info",
       params : {
         _page : page,
         _limit : 5,
@@ -71,6 +71,21 @@ export default function App() {
       <button id="NEXT" onClick={() => setPage(page+1)}>next</button>
       </div>
       <PaginationComponent currentPage={page} lastPage={5} onPageChange={setPage}/> <br />
+
+      <div className="header">
+        <div className="name">Name</div>
+        <div className="email">Email</div>
+        <div className="phone_no">Phone No</div>
+        <div className="status">Status</div>
+        <div className="Option">Option</div>
+        <div className="date_added">Date Added</div>
+      </div>
+
+
+
+
+
+
       {data.map((item) => (
         <CandidateCard key={item.id} {...item} />
       ))}

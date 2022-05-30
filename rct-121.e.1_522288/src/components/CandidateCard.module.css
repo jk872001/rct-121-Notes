@@ -1,13 +1,28 @@
 .container {
   display: flex;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   gap: 2rem;
-  padding: 2rem;
-  margin: 0.5rem;
-  background-color: tomato;
+  height: 3.5rem;
+  width: 80%;
+  border: 1px solid red;
+  /* padding: 0.2rem; */
+  margin: auto;
+  background-color: white;
   justify-content: space-between;
+  align-items: center;
+  color: rgb(170, 165, 165);
 }
 
-.container:hover {
+/* .container:hover {
   box-shadow: 2px 2px #888888;
+} */
+
+/* .container input[type=checkbox]{
+  display: none;
+} */
+
+.container input[type=checkbox]:checked + .whatever{
+  background-color: green;
 }
+
+
