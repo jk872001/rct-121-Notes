@@ -52,6 +52,7 @@ export const Signup = () => {
         {
             setEmailError(false);
             setPwdError(false);
+            setMatch(false);
             alert("Successfully registered");
             setState(()=>initialstate);
         }
