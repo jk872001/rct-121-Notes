@@ -1,0 +1,78 @@
+.input_box1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.input_box2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 60px;
+    gap: 15px;
+    
+    /* border: 1px solid red; */
+}
+.input_box3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 60px;
+    gap: 15px;
+    /* border: 1px solid red; */
+}
+.combine{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    width: 410px;
+    
+}
+.input_box4{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    /* gap: 15px; */
+    /* border: 1px solid red; */
+}
+.input_box5{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    gap: 15px;
+    /* border: 1px solid red; */
+}
+
+.innerbox{
+   
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+input{
+    border: none;
+    border-bottom: 2px solid orange;
+    
+}
+.button{
+    width:400px;
+    height: 50px;
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    margin: auto;
+
+}
+.fail{
+    color: red;
+    font-size: 20px;
+    margin: auto;
+}
