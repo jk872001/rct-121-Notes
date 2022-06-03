@@ -14,6 +14,7 @@
     width: 200px;
     height: 60px;
     gap: 15px;
+  
     
     /* border: 1px solid red; */
 }
@@ -53,11 +54,12 @@
 
 .innerbox{
    
-    width: 70%;
+    width: 40%;
     margin: auto;
     /* border: 1px solid red; */
 }
 input{
+    height: 30px;
     border: none;
     border-bottom: 2px solid orange;
     
@@ -69,10 +71,21 @@ input{
     color:white;
     font-size: 30px;
     margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
 
 }
 .fail{
     color: red;
     font-size: 20px;
     margin: auto;
+}
+.detail{
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 200px;
+    /* border: 1px solid green; */
+
 }

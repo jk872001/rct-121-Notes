@@ -102,10 +102,12 @@ export const Signup = () => {
         <div className='input_box4'>
                 <label>Password</label>
         <input type="password" name="password" value={password} onChange={(e)=>setState({...state,[e.target.name]:e.target.value})}/>
+        <div className='detail'>
         <p>contain atleast 8 characters</p>
         <p>contain both lowercase and uppercase letters</p>
         <p>contain atleast one number (0-9) or a symbol</p>
         <p>does not contain your email address</p>
+        </div>
         </div>
         <div className='input_box5'>
                 <label>Confirm Password</label>
