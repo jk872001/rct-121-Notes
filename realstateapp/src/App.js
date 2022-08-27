@@ -1,21 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import { Home } from "./components/home";
+import { Route, Routes } from "react-router-dom";
+import { Favourites } from "./components/favourites";
+import { Navbar } from "./components/navbar";
+const App = () => {
   return (
-    <div className="App">
-      <header>
-        <nav className='navbar'>
-          <h1>
-            Real State Application 
-          </h1>
-         <h2>
-          Favorites
-         </h2>
-        </nav>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/favourite" element={<Favourites />}></Route>
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
