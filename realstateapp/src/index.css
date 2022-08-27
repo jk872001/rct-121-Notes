@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  color:azure;
+  background-color: #724de4;
+  padding: 15px;
+}
+.navbar h1{
+  font-size: 2em;
+}
+.navbar h2{
+  font-size: 1.9em;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  width:"95%";
+  margin:auto;
+  margin-top: 20px;
+}
+.card{
+  /* border:1px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  justify-content: center;
+}
+.card h2{
+  text-align: center;
+}
+.card p{
+  font-size: 1.5em;
+  margin: 5px;
+}
+button{
+  background-color: #9593f3;
+  color: #ffffff;
+  border:none;
+  padding: 15px;
+  margin: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #724de4 ;
+  color: #ffffff;
+}
+.filter-box{
+  display: flex;
+  width:95%;
+  margin: auto;
+  justify-content: center;
+  padding: 18px;
+  /* border:1px solid red; */
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.filter-box div{
+  margin: 15px;
+}
+input {
+  padding: 10px;
+  border:2px solid#724de4;
+  border-radius: 10px;
+}
+select {
+  padding: 10px;
+  border:2px solid#724de4;
+  border-radius: 10px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:"95%";
+    margin:auto;
+    margin-top: 20px;
+  }
+  .filter-box{
+    display: flex;
+    width:95%;
+    margin: auto;
+    justify-content: center;
+   flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  
+    margin:auto;
+    margin-top: 20px;
+  }
+  .filter-box{
+    display: flex;
+    width:95%;
+    margin: auto;
+    justify-content: center;
+   flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }
+}
