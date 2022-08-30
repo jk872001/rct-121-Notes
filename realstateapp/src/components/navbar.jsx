@@ -14,8 +14,8 @@ export const Navbar = () => {
           <Link className="text-link" to="/favourite">
             <h2>Favorites:-
             {
-                cart.length === 0 ? null:
-                <span>{cart.length}</span>
+                cart?.length === 0 ? null:
+                <span>{cart?.length}</span>
             } 
             </h2>
           </Link>
